@@ -1,0 +1,17 @@
+num_reconstruct_per_class: 333
+sample_batch_size: 250
+sample_save_size: 20
+chains_save_size: 1
+
+extraction_mask_lr: 0.01
+extraction_mask_weight_decay: 0.0005
+extraction_lambda_lr: 0.1
+extraction_lambda_weight_decay: 0.0005
+extraction_min_lambda: 0.1
+
+X_lr: 0.1
+X_weight_decay: 0
+E_lr: 0.1
+E_weight_decay: 0
+
+num_recon_epoch: 80

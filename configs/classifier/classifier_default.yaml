@@ -1,0 +1,22 @@
+modelname: 'GIN'
+num_hidden: 64
+num_layers: 2
+dropout: 0
+num_classes: 3
+train_lr: 0.0002 # 0.001
+weight_decay: 0.0005
+epochs: 100
+train_with_val: 'Train'
+save_classifier: True
+load_classifier: True
+
+# Especially for GTN classifier
+name: 'graph-tf-model'      # Warning: 'debug' and 'test' are reserved name that have a special behavior
+resume: null            # If resume, path to ckpt file from outputs directory in main directory
+guidance_target: 'both'       # null is the default when not using guidance. Otherwise, use 'homo', 'mu' or 'both'
+check_val_every_n_epochs: 5
+save_model: True
+clip_grad: null          # float, null to disable
+extra_features: null        # 'all', 'cycles', 'eigenvalues' or null
+type: 'discrete'
+trained_classifier_path: 'checkpoints/classifier_qm9.ckpt' 
