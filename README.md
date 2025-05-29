@@ -39,3 +39,15 @@ We follow [DiGress](https://github.com/cvignac/DiGress) to install our environme
 
 ## 4. Dataset
 The applied dataset (i.e., QM9) will be automatically downloaded to ./data. 
+
+## 5. Citation
+If you find this repo to be useful, please cite our paper. Thank you.
+```
+@inproceedings{lin2025stealing,
+author = {Lin, Minhua and Dai, Enyan and Xu, Junjie and Jia, Jinyuan and Zhang, Xiang and Wang, Suhang},
+title = {Stealing Training Graphs from Graph Neural Networks},
+year = {2025},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+pages = {777–788},
+}
+```
